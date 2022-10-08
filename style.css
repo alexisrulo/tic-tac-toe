@@ -1,0 +1,27 @@
+*{
+    background-color: #fafafa;
+    margin: 0;
+    /* -----colors------ */
+    --box-bg: #e5e5e5;
+}
+.boxsContent{
+    display: flex;
+    width: 417px;
+    flex-wrap: wrap;
+    margin: 150px auto;
+    gap: 3px;
+    background-color: black;
+
+}
+
+.box{
+    width: 137px;
+    height: 137px;
+    background-color: var(--box-bg);
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 100px;
+    text-align: center;
+    line-height: 137px;
+    user-select: none;
+}
